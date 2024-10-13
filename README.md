@@ -1,8 +1,8 @@
-## Calculadora Básica em Python
-# Descrição
+# Calculadora Básica em Python
+## Descrição
 Este repositório contém um programa simples em Python que simula uma calculadora. O programa permite que o usuário escolha entre diferentes operações matemáticas (soma, subtração, multiplicação, divisão, e potência) e então insira dois números para realizar a operação desejada. O código utiliza a estrutura de controle match (introduzida no Python 3.10) para definir o comportamento da calculadora baseado na escolha do usuário.
 
-# Funcionalidades
+## Funcionalidades
 O programa oferece as seguintes operações matemáticas:
 
 * Soma: Adiciona dois números.
@@ -11,7 +11,7 @@ O programa oferece as seguintes operações matemáticas:
 * Divisão: Divide o primeiro número pelo segundo (com tratamento para divisão por zero).
 * Potência: Calcula a potência de um número, elevando o primeiro número à potência do segundo.
   
-# Funcionamento do Código
+## Funcionamento do Código
 O usuário é solicitado a escolher qual operação deseja realizar. Essa escolha é feita através de um input(), onde o usuário pode digitar o nome da operação (por exemplo, "soma", "subtração", "multiplicar", etc.).
 
 O programa utiliza o comando match para verificar qual operação o usuário escolheu. Com base nessa escolha, o programa realiza a seguinte lógica:
