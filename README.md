@@ -23,10 +23,3 @@ Tratamento de erros:
 No caso da operação de divisão, o programa inclui uma verificação para garantir que o divisor não seja zero, pois isso geraria um erro de "divisão por zero". Se o divisor for zero, uma mensagem de erro apropriada é exibida.
 Se o usuário inserir uma operação que não esteja listada, o programa cai no caso padrão (case _:) e exibe uma mensagem indicando que a operação é inválida.
 
-# Estrutura do Código
-Aqui está um detalhamento da estrutura do código:
-
-Entrada de dados: O programa começa pedindo ao usuário que escolha qual operação deseja realizar através de um comando input().
-
-Estrutura de controle match: O bloco de controle match verifica a operação escolhida pelo usuário e executa o bloco de código correspondente à operação selecionada. Se o usuário escolher uma operação inválida, o bloco padrão (case _:) será acionado.
-
